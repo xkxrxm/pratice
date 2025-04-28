@@ -30,7 +30,7 @@ func main() {
 		kafka.Message{Value: []byte("three")},
 	)
 	if err == nil {
-		fmt.Println("successfully write ", cnt, "message to kafka")
+		fmt.Println("successfully write ", cnt, "bytes to kafka")
 	} else {
 		fmt.Println("failed to write message into kafka", err)
 	}
